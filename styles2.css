@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .donation-container {
 	height: 1000px;
 	font-family: 'Montserrat', sans-serif;
@@ -29,7 +30,7 @@
 }
 
 .donation-box .title {
-	background-color: magenta;
+	background-color: #30dbd3;
 	width: 100%;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
@@ -45,7 +46,7 @@
 	width: 100%;
 	color: white;
 	text-align: center;
-	padding-top: 12px;
+	padding-top: 13px;
 	padding-bottom: 12px;
 	font-size: 18px;
 	bottom: 0px;
@@ -122,7 +123,7 @@
 }
 
 .donation-box .amount .button:hover {
-	background-color: forestgreen;
+	background-color: firebrick;
 }
 
 .donation-box .amount .button.selected {
@@ -136,7 +137,7 @@
 	border: none;
 	background-color: transparent;
 	color: white;
-	font-family: Montserrat, sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 20px;
 	font-stretch: normal;
 	font-style: normal;
@@ -216,7 +217,7 @@
   height: 22px;
   background: black;
   border-radius: 3px;
-  background-color: purple;
+  background-color: #1e9691;
   
   -webkit-transition: left 0.15s ease-out;
   -moz-transition: left 0.15s ease-out;
@@ -233,7 +234,7 @@
 .checkboxes label {
 	position: relative;
 	top: -8px;
-	font-size: 13px;
+	font-size: 16px;
 	color: black;
 }
 
@@ -303,19 +304,19 @@
 
 .middle-body {
     grid-area: 2 / 1 / 4 / 4;
-    background-color: #42f5bf;
+    background-color: #e82741;
     height: 860px;
     display: flex;
 }
 
 .bottom-body {
     grid-area: 4 / 1 / 5 / 5;
-    background-color:#ff5c5c;
+    background-color:black;
     height: 100px;
-    font-family: 'Modak', cursive;
-    color: #941515;
+    font-family: 'Roboto', sans-serif;
+    color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 body {
@@ -395,3 +396,4 @@ body {
     display: flex;
 
 }
+
